@@ -1,3 +1,7 @@
-body {
-	background-color: pink;
+#navbarNav {
+	padding-right: 130px;
+}
+
+.nav-item {
+	padding: 0 10px;
 }
