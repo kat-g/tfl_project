@@ -17,8 +17,11 @@
 	border-radius: 50px;
 }
 
+.title {
+	margin: 0 0 30px;
+}
+
 .btn {
 	height: 50px;
 	border-radius: 50px;
 }
-
