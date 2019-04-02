@@ -1,0 +1,30 @@
+#navbarNav {
+	margin-right: 140px;
+}
+
+.nav-item {
+	padding: 0 10px;
+}
+
+.container {
+  height: 500px;
+  width: 700px;
+  position: relative;
+  text-align: center;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+h1{
+  color: Black;
+}
+
+ p{
+  color: grey;
+  padding: 0 100px;
+}
