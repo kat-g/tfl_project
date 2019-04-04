@@ -1,0 +1,31 @@
+#navbarNav {
+	margin-right: 140px;
+}
+
+.nav-item {
+	padding: 0 10px;
+}
+
+.container-fluid {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100vh;
+}
+
+.title {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100vh;
+	text-align: center;
+	padding: 40px 0 20px 0;
+}
+
+.para {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100vh;
+	text-align: center;
+}
