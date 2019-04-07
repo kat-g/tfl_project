@@ -1,9 +1,9 @@
 #navbarNav {
-  margin-right: 140px;
+	margin-right: 140px;
 }
 
 .nav-item {
-  padding: 0 10px;
+	padding: 0 10px;
 }
 
 #map {
@@ -20,23 +20,7 @@
 
 .container {
   width: 65%;
-}
-
-.title {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100vh;
-  text-align: center;
   padding: 40px 0 30px 0;
-}
-
-.para {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100vh;
-  text-align: center;
 }
 
 .para-bottom {
@@ -53,15 +37,3 @@
 
 .logo {
   margin: 0 10px;
-}
-
-@media only screen and (max-width: 800px) {
-
-  .container {
-    width: 90%;
-  }
-
-  .title {
-    padding: 70px 0 30px 0;
-  }
-}
