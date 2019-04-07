@@ -1,3 +1,13 @@
+body {
+	background-size: cover;
+	background-image: url(../assets/contact-us-background.jpg);
+}
+
+.background {
+	background: rgba(0,0,0,0.5);
+	height: 100vh
+}
+
 #navbarNav {
 	margin-right: 140px;
 }
@@ -12,7 +22,8 @@
 	justify-content: center;
 	width: 100vh;
 	text-align: center;
-	padding: 100px 0 20px 0;
+	padding: 60px 0 20px 0;
+	color: rgba(255,255,255,0.8);
 }
 
 .para {
@@ -21,6 +32,7 @@
 	justify-content: center;
 	width: 100vh;
 	text-align: center;
+	color: rgba(255,255,255,0.8);
 }
 
 .form-container {
@@ -28,11 +40,15 @@
 	padding-top: 20px;
 }
 
+label {
+	color: rgba(255,255,255,0.8);
+}
+
 .button {
 	padding: 10px;
 }
 
-button {
+.submit-btn {
 	width: 30%;
 }
 
