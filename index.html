@@ -16,58 +16,61 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">
-        <img src="assets/TFL-Mark.png" width="130" height="30" alt="TFL logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Journey Planner<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact-us.html">Contact Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about-us.html">About</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="background">
 
-    
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/TFL-Mark.png" width="130" height="30" alt="TFL logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Journey Planner<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-    <div class="vertical">
 
-      <div class="container">
-        <form>
+
+      <div class="vertical">
+
+        <div class="container">
+          <form>
+            <div class="row">
+              <h1 class="col-md-12 col-sm-12 title">Plan Your Journey</h1>
+            </div>
+            <div class="row">
+              <div class="form-group col-md-4 col-sm-12">
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Travelling from">
+              </div>
+              <div class="form-group col-md-4 col-sm-12">
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Travelling to">
+              </div>
+              <div class="form-group col-md-4 col-sm-12">
+                <button type="submit" class="btn btn-primary btn-block" id="search">Find my journey</button>
+              </div>
+            </div>
+          </form>
           <div class="row">
-            <h1 class="col-md-12 col-sm-12 title">Plan Your Journey</h1>
-          </div>
-          <div class="row">
-            <div class="form-group col-md-4 col-sm-12">
-              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Travelling from">
+            <div class="col-md-12 col-sm-12 text-center line-name">
+              <span id="result"></span>
             </div>
-            <div class="form-group col-md-4 col-sm-12">
-              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Travelling to">
-            </div>
-            <div class="form-group col-md-4 col-sm-12">
-              <button type="submit" class="btn btn-primary btn-block" id="search">Find my journey</button>
-            </div>
-          </div>
-        </form>
-        <div class="row">
-          <div class="col-md-12 col-sm-12 text-center">
-            <span id="result"></span>
           </div>
         </div>
+
       </div>
 
     </div>
-
 
 
     <!-- Optional JavaScript -->

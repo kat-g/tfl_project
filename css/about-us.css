@@ -6,25 +6,30 @@
 	padding: 0 10px;
 }
 
-.container {
-  height: 500px;
-  width: 700px;
-  position: relative;
-  text-align: center;
+#map {
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+.container {
+  height: 250px;
+  width: 750px;
+	border: 1px solid #DDDDDD;
+	background-color: white;
+	margin-top: 150px;
+  position: relative;
+  text-align: center;
+	padding-top:10px;
+}
 
-h1{
+}
+h3{
   color: Black;
 }
 
  p{
   color: grey;
-  padding: 0 100px;
+	position: center;
+	padding-bottom: 5px;
 }

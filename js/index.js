@@ -1,12 +1,12 @@
 const tflLines = [
-	["Central", "#dc241f"], 
-	["District", "#007229"], 
-	["DLR", "#00afad"], 
-	["Overground", "#e86a1"],
+	["Central", "#dc241f"],
+	["District", "#007229"],
+	["DLR", "#00afad"],
+	["Overground", "#e86a10"],
 	["Waterloo & City", "#76d0bd"],
 	["Bakerloo", "#894e24"],
 	["Circle", "#ffce00"],
-	["Hammersmith & City", "#d799af"], 
+	["Hammersmith & City", "#d799af"],
 	["Jubilee", "#6a7278"],
 	["Metropolitan", "#751056"],
 	["Northern", "#000"],
@@ -34,4 +34,3 @@ let metroLine = function(event) {
 };
 
 document.getElementById("search").addEventListener("click", metroLine);
-

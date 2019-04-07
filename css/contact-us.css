@@ -6,38 +6,53 @@
 	padding: 0 10px;
 }
 
+#navbarNav {
+	margin-right: 140px;
+}
+
+.nav-item {
+	padding: 0 10px;
+}
+
 .title {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	width: 100vh;
+	max-width: 56%;
 	text-align: center;
-	padding: 40px 0 20px 0;
+	padding: 20px 0 10px 0;
+	background-color: white;
+	margin-top: 40px;
 }
 
 .para {
 	display: flex;
+	color: grey;
 	flex-direction: row;
 	justify-content: center;
-	width: 100vh;
+	max-width: 56%;
 	text-align: center;
+	background-color: white;
 }
 
-.form-container {
-	width: 65%;
-	padding-top: 20px;
+.form-container{
+	display:flex;
+	justify-content: center;
 }
 
-@media only screen and (max-width: 800px) {
-  .form-container {
-    width: 100%;
-  }
+form{
+	background-color: white;
 }
-
 .button {
 	padding: 10px;
 }
 
 button {
 	width: 30%;
+}
+
+#map {
+	height: 590px;
+	width: 100%;
+	position: absolute;
 }
