@@ -27,10 +27,6 @@
   text-align: center;
 }
 
- p {
-  color: grey;
-}
-
 .pic {
   display: flex;
   flex-direction: row;

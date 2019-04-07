@@ -1,3 +1,12 @@
+body {
+	background-size: cover;
+	background-image: url(../assets/background.jpg);
+}
+
+.background {
+	background: rgba(0,0,0,0.5);
+}
+
 #navbarNav {
 	margin-right: 140px;
 }
@@ -20,6 +29,7 @@
 
 .title {
 	margin: 0 0 30px;
+	color: rgba(255,255,255,0.8	);
 }
 
 .btn {
@@ -27,7 +37,13 @@
 	border-radius: 50px;
 }
 
+.line-name {
+	height: 62px;
+}
+
 #result {
+	font-size: 35px;
+	color: rgba(255,255,255,0.8);
 	border-bottom: 5px solid;
 	padding-bottom: 5px;
 }
