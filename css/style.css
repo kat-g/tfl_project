@@ -1,14 +1,12 @@
 body {
-	background-size: cover;
-	background-image: url(../assets/background.jpg);
+
 }
 
-.background {
-	background: rgba(0,0,0,0.5);
-}
 
 #navbarNav {
 	margin-right: 140px;
+	font-family: 'Karla';
+	font-size: 1.5vw;
 }
 
 .nav-item {
@@ -20,7 +18,11 @@ body {
 	flex-direction: row;
 	align-items: center;
 	height: calc(100vh - 60px);
+	background-color:rgba(255,255,255, 0.2);
+	font-family: 'Karla';
+	font-size: 1.5vw;
 }
+
 
 .form-control {
 	padding: 25px;
@@ -29,7 +31,14 @@ body {
 
 .title {
 	margin: 0 0 30px;
-	color: rgba(255,255,255,0.8	);
+	color: white;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-3px 3px 0 #000,
+		1px 1px 0 #000;
 }
 
 .btn {
@@ -43,7 +52,18 @@ body {
 
 #result {
 	font-size: 35px;
-	color: rgba(255,255,255,0.8);
+	font-family: "Open Sans";
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-3px 3px 0 #000,
+		1px 1px 0 #000;
+	color: rgba(255,255,255);
 	border-bottom: 5px solid;
 	padding-bottom: 5px;
+}
+
+.carousel{
+	position: absolute;
+	z-index: -1;
 }

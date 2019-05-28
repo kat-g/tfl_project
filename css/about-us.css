@@ -1,5 +1,7 @@
 #navbarNav {
   margin-right: 140px;
+  font-family: 'Karla';
+	font-size: 1.5vw;
 }
 
 .nav-item {
@@ -14,7 +16,7 @@
 
 .box {
   position: relative;
-  background-color: rgba(255,255,255,.95);
+  background-color: rgba(255,255,255,.75);
   margin-top: 70px;
 }
 
@@ -23,6 +25,13 @@
 }
 
 .title {
+  font-family: 'Open Sans';
+  color: white;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-3px 3px 0 #000,
+		1px 1px 0 #000;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -32,6 +41,7 @@
 }
 
 .para {
+  font-family: 'Karla';
   display: flex;
   flex-direction: row;
   justify-content: center;

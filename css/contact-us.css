@@ -10,6 +10,8 @@ body {
 
 #navbarNav {
 	margin-right: 140px;
+	font-family: 'Karla';
+	font-size: 1.5vw;
 }
 
 .nav-item {
@@ -24,9 +26,17 @@ body {
 	text-align: center;
 	padding: 60px 0 20px 0;
 	color: rgba(255,255,255,0.8);
+	font-family: "Open Sans";
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-3px 3px 0 #000,
+		1px 1px 0 #000;
 }
 
 .para {
+	font-family: 'Karla';
+	font-size: 1.5vw;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -38,10 +48,14 @@ body {
 .form-container {
 	width: 65%;
 	padding-top: 20px;
+	font-family: 'Karla';
+	font-size: 1.5vw;
 }
 
 label {
 	color: rgba(255,255,255,0.8);
+	font-family: 'Karla';
+	font-size: 1.5vw;
 }
 
 .button {
